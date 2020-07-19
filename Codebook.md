@@ -23,7 +23,6 @@ There are 28 files in UCI HAR Dataset. The following files are read into:
 7. features = features.txt
 8. activity_labels = activity_labels.txt
 
-**Create/Rename Column Names**
 
 **Merges the training and the test sets to create one data set**
 
@@ -31,7 +30,7 @@ There are 28 files in UCI HAR Dataset. The following files are read into:
 2. M_train merges all the columns for ubject_train, y_train, x_train
 3. All_data was created by appending M_test to M_train
 
-Column names were then created into meaningful variables
+**Column names were then created into meaningful variables**
 1. First 2 columns were renamed to "Activity_Num" and "Subject_Num"
 2. The rest of the columns were renamed to the observations in Features
 3. For activity_labels, columns were renamed to 'Activity_Num', 'Activity', so as to have a common link to All_data
